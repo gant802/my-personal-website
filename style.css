@@ -10,6 +10,25 @@
     src: url(red-hands.ttf);
   }
 
+  @media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+  }
+
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -126,22 +145,30 @@ p {
 #schooling-content-container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     padding-top: 50px;
 }
 
 #castleton-logo {
-    height: 350px;
+    height: 300px;
     border-radius: 70px;
 }
 
+.schooling-content-container-child {
+    width: 490px;
+}
+
 .schooling-content-container-child:nth-of-type(1) p {
-    line-height: 12px;
+    line-height: 15px;
+}
+
+.schooling-content-container-child p {
+    font-size: 1rem;
 }
 
 .schooling-content-container-child:nth-of-type(2) {
-    width: 600px;
+    width: 500px;
 }
 
 #personal-acholades {
@@ -152,7 +179,6 @@ p {
 
 #acholades-list li{
     width: 400px;
-    text-align: center;
     line-height: 30px;
     padding: 20px;
     list-style: inside;
@@ -160,7 +186,8 @@ p {
 }
 
 #speech-video {
-    height: 430px;
+    height: 420px;
+    border-radius: 20px;
 }
 
 /*Section 4*/
