@@ -7,7 +7,7 @@
 
   @font-face {
     font-family: red-hands;
-    src: url(red-hands.ttf);
+    src: url(Nexa-Heavy.ttf);
   }
 
   @media(prefers-reduced-motion) {
@@ -258,6 +258,12 @@ p {
     height: 450px;
     padding-top: 20px;
     margin-top: -32px;
+}
+
+#section6 h2 {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #social-logos {
