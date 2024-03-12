@@ -1,0 +1,65 @@
+html {
+    /*scroll-behavior: smooth;*/
+}
+
+
+/*Nav bar css*/
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 80px;
+}
+
+#brain-img {
+    width: 70px;
+    border: 2px solid;
+    border-radius: 50%;
+
+    padding: 7px;
+}
+
+#nav-bar-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    padding-right: 10px;
+}
+
+#nav-bar-child p {
+    padding: 0px 20px;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar a:hover {
+    color: black;
+    background: radial-gradient(ellipse, rgb(246, 185, 251), rgb(236, 246, 254), aliceblue);
+    border-radius: 20px;
+}
+
+/*writers note div*/
+#writers-note-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+#writers-note {
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 1.3rem;
+}
+
+#hiking-pic {
+    width: 350px;
+    border-radius: 40px;
+}
