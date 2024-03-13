@@ -1,22 +1,31 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     /*scroll-behavior: smooth;*/
 }
 
+.squiggley-line-divider {
+    width: 100%;
+    height: 100px;
+}
 
 /*Nav bar css*/
 #nav-bar {
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: rgb(157, 164, 226);
     height: 80px;
+    border-radius: 10px;
 }
 
 #brain-img {
     width: 70px;
-    border: 2px solid;
     border-radius: 50%;
-
-    padding: 7px;
+    padding: 10px;
 }
 
 #nav-bar-child {
@@ -29,7 +38,7 @@ html {
 
 #nav-bar-child p {
     padding: 0px 20px;
-    border-bottom: 2px solid;
+    font-size: 1.1rem;
     border-radius: 5px;
 }
 
@@ -40,13 +49,14 @@ html {
 
 #nav-bar a:hover {
     color: black;
-    background: radial-gradient(ellipse, rgb(246, 185, 251), rgb(236, 246, 254), aliceblue);
-    border-radius: 20px;
+    background: radial-gradient(ellipse, rgb(246, 185, 251), rgb(232, 190, 247), rgb(157, 164, 226));
+    border-radius: 100%;
 }
 
 /*writers note div*/
 #writers-note-container {
     width: 50%;
+    height: 400px;
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
@@ -62,4 +72,9 @@ html {
 #hiking-pic {
     width: 350px;
     border-radius: 40px;
+}
+
+/*Why tech section*/
+#guy-on-computer {
+    width: 100px;
 }
