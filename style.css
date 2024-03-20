@@ -16,6 +16,12 @@
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    #brain-img {
+        width: 200px;
+    }
+  }
+
   .hidden {
     opacity: 0;
     filter: blur(5px);
@@ -33,7 +39,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e6f3fa;
+    background-color: #d9d9d9;
 }
 
 h1 {
@@ -77,7 +83,7 @@ p {
     padding: 0;
     background-position: center;
     background-size: cover;
-    background-image: url(https://www.shutterstock.com/image-photo/summer-festival-crowd-view-girl-600nw-622013237.jpg);
+    background-image: url(https://www.jayenne.co.nz/getattachment/e31271d0-8bcc-4601-bbb0-afb6ac0339ba/Slide-1.aspx);
     background-attachment: fixed;
 
     display: flex;
@@ -93,38 +99,18 @@ p {
 
 /*Section 2*/
 #section2 {
-    background-color: #667292;
+    background-color: #096192;
     color: #fff;
     padding: 30px;
     margin: 40px auto;
     border-radius: 40px;
-}
-
-#please-check-out {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    width: 600px;
-    font-size: 2rem;
-    color: rgb(242, 209, 209);
-}
-
-#right-pointing-arrow {
-    padding: 35px 30px 35px 16px;
-    width: 170px;
-    height: 100px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.7);
 }
 
 #brain-img {
-    width: 200px;
+    width: 100px;
     border-radius: 50%;
-}
-
-#brain-container {
-    margin: 0 auto;
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
 }
 
 /*Section 3*/
@@ -209,20 +195,20 @@ p {
 
 /*Section 5*/
 #section5 {
-    background-image: url(https://wallpaper.dog/large/10817628.jpg);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/15/10/82/1000_F_315108253_HdthDDAyTK5gG4b5nSztKmu28IpQZREg.jpg);
     background-size: cover;
+    height: 640px;
 }
 
 #section5 h2 {
     padding-top: 40px;
-    color: black;
+    color: rgb(249, 247, 247);
 }
 
 #section5 p {
     width: 800px;
     margin: 0 auto;
     color: white;
-    background-color: rgb(43, 43, 43);
     padding: 10px;
     border-radius: 20px;
 }
@@ -236,10 +222,9 @@ p {
 
 .goals-container-child {
     color: #fff;
-    background-color: rgb(43, 43, 43);
     margin-top: 20px;
     border-radius: 20px;
-    height: 220px;
+    height: 180px;
     width: 360px;
     font-family: red-hands;
 }
